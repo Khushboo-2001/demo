@@ -1,14 +1,273 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+  {
+    "id": 1,
+    "name": "Introduction to Programming",
+    "instructor": "John Doe",
+    "description": "Learn the basics of programming with this introductory course.",
+    "enrollmentStatus": "Open",
+    "duration": "8 weeks",
+    "schedule": "Monday, Wednesday, Friday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction",
+      "Week 2: Variables and Control Flow",
+      "Week 3: Functions and Loops",
+      "Week 4: Data Structures",
+      "Week 5: Web Development Basics"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Data Science Fundamentals",
+    "instructor": "Jane Smith",
+    "description": "Explore the world of data science and analytics.",
+    "enrollmentStatus": "Closed",
+    "duration": "10 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "On-campus",
+    "prerequisites": "Basic programming knowledge",
+    "syllabus": [
+      "Week 1: Introduction to Data Science",
+      "Week 2: Data Exploration and Cleaning",
+      "Week 3: Statistical Analysis",
+      "Week 4: Machine Learning Basics",
+      "Week 5: Data Visualization"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Graphic Design Essentials",
+    "instructor": "Emily Johnson",
+    "description": "Learn the fundamentals of graphic design and visual communication.",
+    "enrollmentStatus": "Open",
+    "duration": "6 weeks",
+    "schedule": "Monday, Wednesday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Graphic Design",
+      "Week 2: Color Theory and Typography",
+      "Week 3: Image Editing Techniques",
+      "Week 4: Layout and Composition",
+      "Week 5: Design Principles"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Business Finance Strategies",
+    "instructor": "Michael Brown",
+    "description": "Explore key strategies for effective financial management in business.",
+    "enrollmentStatus": "Open",
+    "duration": "12 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "On-campus",
+    "prerequisites": "Basic understanding of business concepts",
+    "syllabus": [
+      "Week 1: Introduction to Business Finance",
+      "Week 2: Financial Planning and Budgeting",
+      "Week 3: Investment Strategies",
+      "Week 4: Risk Management",
+      "Week 5: Financial Decision Making"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mobile App Development",
+    "instructor": "David Anderson",
+    "description": "Learn to develop mobile applications for iOS and Android platforms.",
+    "enrollmentStatus": "Open",
+    "duration": "10 weeks",
+    "schedule": "Monday, Wednesday",
+    "location": "Online",
+    "prerequisites": "Basic programming skills",
+    "syllabus": [
+      "Week 1: Introduction to Mobile App Development",
+      "Week 2: User Interface Design",
+      "Week 3: Programming with Swift (iOS) or Kotlin (Android)",
+      "Week 4: Data Persistence",
+      "Week 5: Final Project"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Photography Basics",
+    "instructor": "Sophie Adams",
+    "description": "Discover the essentials of photography, from composition to post-processing.",
+    "enrollmentStatus": "Closed",
+    "duration": "8 weeks",
+    "schedule": "Thursday, Saturday",
+    "location": "On-campus",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Photography",
+      "Week 2: Camera Settings and Exposure",
+      "Week 3: Composition Techniques",
+      "Week 4: Photo Editing with Adobe Lightroom",
+      "Week 5: Portfolio Review"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Creative Writing Workshop",
+    "instructor": "Olivia Turner",
+    "description": "Enhance your creative writing skills through guided workshops and feedback.",
+    "enrollmentStatus": "Open",
+    "duration": "6 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Creative Writing",
+      "Week 2: Character Development",
+      "Week 3: Plot Structure",
+      "Week 4: Dialogue Writing",
+      "Week 5: Final Project"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Artificial Intelligence Fundamentals",
+    "instructor": "Alex Rodriguez",
+    "description": "Explore the basics of artificial intelligence and machine learning.",
+    "enrollmentStatus": "Open",
+    "duration": "12 weeks",
+    "schedule": "Monday, Wednesday",
+    "location": "On-campus",
+    "prerequisites": "Basic programming knowledge",
+    "syllabus": [
+      "Week 1: Introduction to AI and ML",
+      "Week 2: Supervised Learning",
+      "Week 3: Unsupervised Learning",
+      "Week 4: Neural Networks",
+      "Week 5: AI Applications"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Digital Marketing Strategies",
+    "instructor": "Eva Martinez",
+    "description": "Learn effective digital marketing strategies for businesses and brands.",
+    "enrollmentStatus": "Closed",
+    "duration": "8 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Digital Marketing",
+      "Week 2: Social Media Marketing",
+      "Week 3: Search Engine Optimization",
+      "Week 4: Email Marketing",
+      "Week 5: Analytics and Measurement"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Human Resources Management",
+    "instructor": "Daniel White",
+    "description": "Gain insights into effective human resources management practices.",
+    "enrollmentStatus": "Open",
+    "duration": "10 weeks",
+    "schedule": "Monday, Wednesday",
+    "location": "On-campus",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to HRM",
+      "Week 2: Recruitment and Selection",
+      "Week 3: Employee Relations",
+      "Week 4: Training and Development",
+      "Week 5: HR Policies and Compliance"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Environmental Science",
+    "instructor": "Dr. Sarah Thompson",
+    "description": "Explore key concepts in environmental science and sustainability.",
+    "enrollmentStatus": "Open",
+    "duration": "12 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Environmental Science",
+      "Week 2: Ecosystems and Biodiversity",
+      "Week 3: Climate Change",
+      "Week 4: Conservation Strategies",
+      "Week 5: Environmental Policies"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Web Development Bootcamp",
+    "instructor": "Chris Turner",
+    "description": "Join an intensive web development bootcamp covering front-end and back-end technologies.",
+    "enrollmentStatus": "Closed",
+    "duration": "14 weeks",
+    "schedule": "Monday, Wednesday, Friday",
+    "location": "On-campus",
+    "prerequisites": "Basic HTML and CSS knowledge",
+    "syllabus": [
+      "Week 1-2: HTML and CSS Basics",
+      "Week 3-4: JavaScript and DOM Manipulation",
+      "Week 5-6: Front-end Frameworks (React, Angular, Vue)",
+      "Week 7-8: Node.js and Express",
+      "Week 9-10: Database Design and MongoDB",
+      "Week 11-12: Full-stack Development",
+      "Week 13-14: Final Project"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Psychology and Well-being",
+    "instructor": "Dr. Megan Williams",
+    "description": "Explore the fundamentals of psychology and strategies for well-being.",
+    "enrollmentStatus": "Open",
+    "duration": "8 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Psychology",
+      "Week 2: Cognitive Psychology",
+      "Week 3: Social Psychology",
+      "Week 4: Emotional Intelligence",
+      "Week 5: Strategies for Well-being"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Creative Coding",
+    "instructor": "Martin Walker",
+    "description": "Combine creativity and coding to build interactive and artistic projects.",
+    "enrollmentStatus": "Closed",
+    "duration": "10 weeks",
+    "schedule": "Monday, Wednesday",
+    "location": "On-campus",
+    "prerequisites": "Basic programming skills",
+    "syllabus": [
+      "Week 1: Introduction to Creative Coding",
+      "Week 2: Canvas Drawing and Animation",
+      "Week 3: Interactive Web Development",
+      "Week 4: Audio and Visual Integration",
+      "Week 5: Final Creative Project"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Project Management Fundamentals",
+    "instructor": "Sarah Adams",
+    "description": "Learn essential project management skills and methodologies.",
+    "enrollmentStatus": "Open",
+    "duration": "8 weeks",
+    "schedule": "Tuesday, Thursday",
+    "location": "Online",
+    "prerequisites": "None",
+    "syllabus": [
+      "Week 1: Introduction to Project Management",
+      "Week 2: Project Planning and Scheduling",
+      "Week 3: Risk Management",
+      "Week 4: Agile Methodologies",
+      "Week 5: Project Closure and Evaluation"
+    ]
+  },
